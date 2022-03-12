@@ -1,12 +1,15 @@
-
+ 
 #include <stdio.h>
 
 /**
  * main - Entry point
  * Return:0
  */
+
+
+
 int main(void)
-{
+/*{
 	int i, y;
 	for (i = 0; i < 10; i++)
 	{
@@ -18,5 +21,22 @@ int main(void)
 	}
 
 putchar('\n');
-return (0);
+return (0); 
+} */
+
+
+{
+char base_16;
+
+for (base_16 =48; base_16 <= base_16++)
+{putchar(base_16 );	
 }
+
+for (base_16 = 97; base_16 <= 102; base_16++ )
+{
+putchar(base_16);
+}
+
+putchar ('\n');
+
+return(0);
