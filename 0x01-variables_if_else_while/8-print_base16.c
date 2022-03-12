@@ -10,17 +10,18 @@
 
 int main(void)
 {
-char base_16;
+	int i, y;
+	for (i = 0; i < 10; i++)
+	{
+		putchar (i + '0');
+	}
+	for (y = 'a'; y <= 'f'; y++)
+	{
+		putchar (y);
+	}
 
-for (base_16 =48; base_16 <= base_16++)
-{putchar(base_16 );	
-}
+putchar('\n');
+return (0); 
+} 
 
-for (base_16 = 97; base_16 <= 102; base_16++ )
-{
-putchar(base_16);
-}
 
-putchar ('\n');
-
-return(0);
