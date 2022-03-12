@@ -6,8 +6,6 @@
  * Return:0
  */
 
-
-
 int main(void)
 {
 	int i, y;
@@ -23,5 +21,3 @@ int main(void)
 putchar('\n');
 return (0); 
 } 
-
-
