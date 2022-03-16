@@ -28,5 +28,4 @@ return (last_digit);
 
 _putchar('\n');
 
-
 }
