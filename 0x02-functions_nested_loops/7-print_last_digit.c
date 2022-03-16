@@ -26,4 +26,7 @@ _putchar (last_digit + '0');
 return (last_digit);
 }
 
+_putchar('\n')
+
+
 }
