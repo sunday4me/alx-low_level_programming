@@ -15,12 +15,13 @@ void print_rev(char *str)
 	while (str[i] != 0)
 	{
 		i++;
+	}
 		total_caracteres = i - 1;
 		for ( c = 0; c <= total_caracteres; c++)
 		{
 			_putchar(str[total_caracteres - c]);
 		}
 
-	_putchat('\n');
+	_putchar('\n');
 	}
 
