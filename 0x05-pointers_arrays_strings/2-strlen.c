@@ -5,16 +5,17 @@
 /**
  * _strlen - function that returns the length of a string.
  *
- * @s: length of a string.
+ * @s: a pointer to an int that will be changed/updated.
  *
- * Return: 0.
+ * Return: void that means our answer is correct.
  */
 
-int_strlen(char *s)
+int _strlen(char *s)
 {
-	int i = 0;
+	int i;
+	i = 0;
 
-	while (s[i] != 0)
+	while (s[i] != '\0')
 	{
 		i++;
 	}
