@@ -25,7 +25,7 @@ i++;
 j = 0;
 }
 else
-return (haytack + i);
+return (haystack + i);
 }
 return (0);
 }
