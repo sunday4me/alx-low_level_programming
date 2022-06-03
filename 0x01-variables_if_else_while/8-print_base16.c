@@ -5,6 +5,7 @@
  * Return:0
  */
 int main(void)
+
 {
 int i, y;	
 for (i = 0; i < 10; i++)
@@ -15,6 +16,7 @@ for (y = 'a'; y <= 'f'; y++)
 {
 putchar(y);
 }
+
 putchar('\n');
 return(0); 
 } 
