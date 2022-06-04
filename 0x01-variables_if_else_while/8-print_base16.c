@@ -5,7 +5,6 @@
  * Making better indent
  * Return:0
  */
-
 int main(void)
 {	
 int i, y;	
