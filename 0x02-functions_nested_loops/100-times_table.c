@@ -2,6 +2,7 @@
 /*
 *print_times_table - prints times table
 * @n : times table to use
+* the function should not print anything
 * Return:void
 */
 
@@ -48,5 +49,3 @@ _putchar('\n');
 a++;
 }
 }
-
-
