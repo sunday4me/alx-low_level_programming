@@ -14,7 +14,7 @@ int a = 0, rep, b;
 if (n < 0 || n > 15)
 return;
 
-while (a <= n )
+while (a <= n)
 {
 for (b = 0; b <= n; b++)
 {
@@ -36,7 +36,7 @@ _putchar('0' + rep % 10);
 else
 {
 _putchar('0' + rep / 100);
-_putchar('0' + (rep - 100) / 10 );
+_putchar('0' + (rep - 100) / 10);
 _putchar('0' + rep % 10);
 }
 if (b < n)
