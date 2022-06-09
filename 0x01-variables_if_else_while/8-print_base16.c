@@ -8,18 +8,18 @@
  */
 
 int main(void)
+
 {
-	int x;
-	char c;
+int i, y;	
+for (i = 0; i < 10; i++)
+{
+putchar (i + '0');
+}
+for (y = 'a'; y <= 'f'; y++)
+{
+putchar(y);
+}
 
-	for (x = 48; x < 58; x++)
-	{
-		putchar(x);
-	}
-
-	for (c = 'a'; c < 'g'; c++)
-	{
-		putchar(c);
-	}
-	putchar('\n');
-	return (0);
+putchar('\n');
+return(0); 
+} 
