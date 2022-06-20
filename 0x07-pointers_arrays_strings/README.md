@@ -1,1 +1,1 @@
-It is all about the pointer continuation
+It is all about the pointers continuation & arrays
