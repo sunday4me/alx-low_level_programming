@@ -1,31 +1,57 @@
 #include "main.h"
 
 /**
- * prime2 - Makes possible to evaluate from 1 to n
- * @a: same number as n
- * @b: number that iterates from 1 to n
- *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * is_prime_number - determine if a number is a prime number
+ * @n: int number
+ * Return: 1 if prime, 0 otherwise
  */
-int prime2(int a, int b)
-{
-	if (a == b)
-		return (1);
-	else if (a % b == 0)
-		return (0);
-	return (prime2(a, b + 1));
-}
-/**
- * is_prime_number - checks if a number is prime
- * @n: Number Integer
- *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
- */
+
 int is_prime_number(int n)
 {
-	if (n <= 1)
+	int prime_number(int divider, int n);
+
+	int divider = 2;
+
+	if (n < 2)
+	{
 		return (0);
-	return (prime2(n, 2));
+	}
+	if (n % n == 0 || n % 1 == 0)
+	{
+		if (prime_number(divider, n) != 0)
+		{
+			return (1);
+		}
+		else
+		{
+			return (0);
+		}
+	}
+}
+
+/**
+ * prime_number - helper function, recursive steps taken
+ * @n: number given to original function is_prime_number
+ * @divider: incrementer divisor
+ * Return: 0 if not prime, 1 if prime
+ */
+
+int prime_number(int divider, int n)
+{
+	if (divider < n)
+	{
+		if (n % divider == 0)
+		{
+			return (0);
+		}
+		else
+		{
+			++divider;
+			return (prime_number(divider, n));
+		}
+	}
+	else
+	{
+		return (1);
+	}
 }
