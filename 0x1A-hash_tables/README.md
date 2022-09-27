@@ -20,3 +20,7 @@ All of the following files are scripts and programs written in C:
 | `5-hash_table_print.c` | Function that prints a hash table |
 | `6-hash_table_delete.c` | Function that deletes a hash table |
 | `100-sorted_hash_table.c` | C file with some functions that implements a hash table with a sorted linked list |
+
+
+## Author
+Sunday JIMOH
